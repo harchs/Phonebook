@@ -1,0 +1,21 @@
+// Place all the styles related to the Contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul .icon-delete{
+	float: right;
+	margin: 13px 15px 0px 0px;
+	cursor: pointer;
+	display: none;
+}
+
+.contact_container{
+	height: 400px;
+	overflow-y: scroll;
+}
+
+#numeros{
+	display:none;
+}
+
+
