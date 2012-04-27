@@ -21,9 +21,9 @@ ActiveRecord::Schema.define(:version => 20120426215742) do
 
   create_table "info_contacts", :force => true do |t|
     t.integer  "number"
-    t.integer  "contacts_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.integer  "contact_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

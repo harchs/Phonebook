@@ -1,3 +1,3 @@
 class InfoContact < ActiveRecord::Base
-	belongs_to :contacts
+	belongs_to :contact
 end
