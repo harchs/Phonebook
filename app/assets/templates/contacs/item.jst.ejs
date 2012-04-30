@@ -1,8 +1,12 @@
+<div class="icon-trash icon-delete" rel="tooltip" data-original-title="Delete" title="Delete"></div>
 <div class="accordion-heading">
 	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= contact.get('id')%>">
 		<%= contact.get('fullname') %>
 	</a>
 </div>
 <div id="collapse<%= contact.get('id')%>" class="accordion-body collapse">
+	<div id="items_<%= contact.get('id')%>" class="item">
+
+	</div>
 	
 </div>

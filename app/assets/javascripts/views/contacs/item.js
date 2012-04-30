@@ -1,15 +1,19 @@
 Phonebook.Views.ContacsItem = Backbone.View.extend({
   className: "accordion-group",
-  events:{
-    'click .accordion-heading' : "show_info"
-  },
   template: JST['contacs/item'],
+  events: {
+    'mouseenter' : "show_delete",
+    'mouseleave' : "hide_delete"
+  },
   render: function(){
   	this.$el.html(this.template({contact: this.model}));
-  	return this;
+  	return this; 
   },
-  show_info: function(){
-   
+  show_delete: function(){
+    this.$(".icon-delete").show();
+  },
+  hide_delete: function(){
+    this.$(".icon-delete").hide();
   }
 
 });

@@ -2,9 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-ul .icon-delete{
+.icon-delete{
 	float: right;
-	margin: 13px 15px 0px 0px;
+	margin: 7px 15px 0px 0px;
 	cursor: pointer;
 	display: none;
 }
@@ -16,6 +16,24 @@ ul .icon-delete{
 
 #numeros{
 	display:none;
+}
+
+#addInfoContact{
+	margin-bottom: 5px;
+	margin-left: 12px;
+}
+.item .nav-stacked{
+	margin-bottom: 0px !important;
+}
+
+#new_info_contact{
+	margin: 2px 0 5px 0 !important;
+	padding-left: 11px;
+	display: none;
+}
+
+#input_new_info_contact{
+	margin-right: 15px;
 }
 
 
